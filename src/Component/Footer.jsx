@@ -17,7 +17,7 @@ export default function Footer() {
       </div>
       <div className="mt-5 flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-400">
         <p className="order-2 md:order-1 mt-4 md:mt-0">
-          &copy; Incipient Technologies, 2024.
+          &copy; Developed And Maintained By Sounak Saha, 2024.
         </p>
         <div className="order-1 md:order-2">
           <Link  to="/dashboard" className="px-2">Dashboard</Link>
