@@ -6,7 +6,7 @@ export default function Transaction() {
   const [transactions, setTransactions] = useState([]);
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage] = useState(1); // Change this based on your preference
+  const [itemsPerPage] = useState(5); // Change this based on your preference
   // const dateTimeString = transactions.transactionDateTime;
   // const dateTime = new Date(dateTimeString);
   useEffect(() => {
